@@ -12,9 +12,9 @@
       "@router/*": ["./router/*"],
       "@services/*": ["./services/*"],
       "@store/*": ["./store/*"],
-      "@utils/*": ["./utils/*"]
+      "@utils/*": ["./utils/*"],
       // "@api/*": ["./API/*"],
-      // "@assets/*": ["./assets/*"],
+      "@assets/*": ["./assets/*"]
       // "@containers/*": ["./containers/*"],
       // "@css/*": ["./css/*"],
       // "@customHooks/*": ["./CustomHooks/*"],

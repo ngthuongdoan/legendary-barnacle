@@ -1,0 +1,14 @@
+@import '/styles/mixins';
+.social {
+  position: absolute;
+  background-color: gradient();
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4.2rem;
+  left: 10.4rem;
+  top: 41.46rem;
+  li {
+    text-align: center;
+  }
+}

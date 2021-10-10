@@ -1,0 +1,4 @@
+@mixin gradient($primaryColour: rgba(97, 86, 249, 1), $darkenColour: rgba(26, 18, 159, 1)) {
+  background: $primaryColour;
+  background: linear-gradient(90deg, $primaryColour 0%, $darkenColour 100%);
+}

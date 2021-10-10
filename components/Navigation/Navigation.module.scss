@@ -1,0 +1,17 @@
+.navigation {
+  justify-self: flex-end;
+  margin-right: 3.2rem;
+  margin-top: -0.5rem;
+  ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    gap: 3.3rem;
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.6rem;
+    }
+  }
+}

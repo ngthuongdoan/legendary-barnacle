@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.logo {
+  max-width: 29rem;
+  width: fit-content;
+  display: flex;
+  align-items: flex-end;
+  h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 1.23rem;
+    margin-bottom: 1.1rem;
+    font-size: 4rem;
+    color: $text-color;
+  }
+}
