@@ -1,0 +1,58 @@
+.who-we-are {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin-top: -0.3rem;
+  &__background {
+    position: absolute;
+    top: 0;
+    right: -0.4rem;
+    z-index: -1000000;
+  }
+}
+
+.main-content {
+  display: flex;
+  padding-left: 8.1rem;
+  gap: 8.43rem;
+  width: 100%;
+  &__headline {
+    position: relative;
+    padding-top: 6.5rem;
+    padding-right: 24.9rem;
+    color: #42495b;
+    &--highlight {
+      display: block;
+      font-family: 'Lobster';
+      line-height: 2.5rem;
+      font-weight: 400;
+      font-size: 2rem;
+      color: #7e76f9;
+    }
+    &--normal {
+      font-weight: 600;
+      font-size: 5rem;
+      line-height: 8.5rem;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 1.6rem;
+      color: #7a839e;
+      line-height: 2.6rem;
+      margin-top: 0.6rem;
+      margin-bottom: 3.2rem;
+    }
+  }
+  &__image {
+    margin-top: -0.2rem;
+  }
+  &__button {
+    margin-top: 0.7rem;
+    margin-left: -0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.6rem 5.2rem;
+  }
+}
