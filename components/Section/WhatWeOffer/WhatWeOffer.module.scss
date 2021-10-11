@@ -1,0 +1,26 @@
+@import '/styles/variables';
+.what-we-offer {
+  padding-top: 12.6rem;
+  &__headline {
+    padding-left: 19.6rem;
+    h2 {
+      font-family: 'Lato';
+      color: #7e76f9;
+      font-size: 2.5rem;
+    }
+    h1 {
+      margin-top: 0.8rem;
+      font-size: 5rem;
+      font-weight: 600;
+      line-height: 7.6rem;
+      color: $text-color;
+    }
+  }
+  &__services {
+    display: grid;
+    column-gap: 8.9rem;
+    row-gap: 11.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(36.6rem, 1fr));
+    padding: 9.2rem 16rem;
+  }
+}

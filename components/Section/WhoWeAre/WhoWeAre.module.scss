@@ -1,3 +1,5 @@
+@import '/styles/variables';
+
 .who-we-are {
   position: relative;
   width: 100%;
@@ -22,7 +24,7 @@
     position: relative;
     padding-top: 6.5rem;
     padding-right: 24.9rem;
-    color: #42495b;
+    color: $text-color;
     &--highlight {
       display: block;
       font-family: 'Lobster';
