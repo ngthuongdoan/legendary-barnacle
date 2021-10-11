@@ -1,4 +1,4 @@
-import { ClassNameProps } from '../../../model/ClassNameProps';
+import { ClassNameProps } from '@model/ClassNameProps';
 import classes from './Button.module.scss';
 interface Props {}
 

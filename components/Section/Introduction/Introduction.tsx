@@ -1,9 +1,9 @@
-import Header from '../../Header/Header';
-import PromoteImage from '../../../assets/svg/promote-image.svg';
-import ScrollIcon from '../../../assets/svg/scroll-icon.svg';
+import Header from '@components/Header/Header';
+import PromoteImage from '@assets/svg/promote-image.svg';
+import ScrollIcon from '@assets/svg/scroll-icon.svg';
+import Button from '@components/UI/Button/Button';
+import SocialMenu from '@components/SocialMenu/SocialMenu';
 import classes from './Introduction.module.scss';
-import Button from '../../UI/Button/Button';
-import SocialMenu from '../../../components/SocialMenu/SocialMenu';
 interface Props {}
 
 const Introduction = (props: Props) => {

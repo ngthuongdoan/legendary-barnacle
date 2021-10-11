@@ -1,8 +1,8 @@
-import Twitter from '../../assets/svg/001-twitter-logo-silhouette.svg';
-import Google from '../../assets/svg/002-google-plus.svg';
-import Facebook from '../../assets/svg/003-facebook.svg';
-import Instagram from '../../assets/svg/instagram.svg';
-import Line from '../../assets/svg/line.svg';
+import Twitter from '@assets/svg/001-twitter-logo-silhouette.svg';
+import Google from '@assets/svg/002-google-plus.svg';
+import Facebook from '@assets/svg/003-facebook.svg';
+import Instagram from '@assets/svg/instagram.svg';
+import Line from '@assets/svg/line.svg';
 import classes from './SocialMenu.module.scss';
 interface Props {}
 

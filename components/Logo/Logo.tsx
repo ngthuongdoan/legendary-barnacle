@@ -1,4 +1,4 @@
-import LogoImage from '../../assets/svg/logo.svg';
+import LogoImage from '@assets/svg/logo.svg';
 import classes from './Logo.module.scss';
 
 interface Props {}
