@@ -1,16 +1,16 @@
-import Header from '@components/Header/Header';
 import PromoteImage from '@assets/svg/promote-image.svg';
 import ScrollIcon from '@assets/svg/scroll-icon.svg';
 import Button from '@components/UI/Button/Button';
 import SocialMenu from '@components/SocialMenu/SocialMenu';
+import IntroductionBackground from '@assets/svg/bg-shape.svg';
 import classes from './Introduction.module.scss';
 interface Props {}
 
 const Introduction = (props: Props) => {
   return (
     <section className={classes.introduction}>
+      <IntroductionBackground className={classes['introduction__background']}></IntroductionBackground>
       <SocialMenu></SocialMenu>
-      <Header></Header>
       <div className={classes['main-content']}>
         <div className={classes['main-content__headline']}>
           <h1>

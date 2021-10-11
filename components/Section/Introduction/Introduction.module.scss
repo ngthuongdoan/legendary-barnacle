@@ -1,12 +1,15 @@
 .introduction {
-  background-image: url(../../../assets/svg/bg-shape.svg);
-  background-position: right -0.4rem top 0;
-  background-repeat: no-repeat;
   width: 100%;
   margin: 0;
   padding: 0;
   height: 100%;
   min-height: 100vh;
+  &__background {
+    position: absolute;
+    top: 0;
+    right: -0.4rem;
+    z-index: -1000000;
+  }
 }
 .scroll-down {
   width: 100%;
