@@ -7,11 +7,12 @@
   align-items: flex-end;
   h1 {
     font-family: 'Dosis', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
     margin-left: 1.23rem;
     margin-bottom: 1.1rem;
-    font-size: 4rem;
+    font-size: 3.9rem;
     color: $text-color;
+    letter-spacing: 0.1rem;
   }
 }

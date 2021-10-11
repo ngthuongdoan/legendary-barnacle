@@ -8,12 +8,16 @@
   height: 100%;
   min-height: 100vh;
 }
-
+.scroll-down {
+  width: 100%;
+  text-align: center;
+  transform: translateY(-6.2rem);
+}
 .main-content {
   display: flex;
-  padding-left: 21.5rem;
+  padding-left: 21.3rem;
   padding-top: 2.2rem;
-  gap: 9.4rem;
+  gap: 9.6rem;
   width: 100%;
   &__headline {
     margin-top: 11.3rem;
@@ -32,9 +36,14 @@
       font-weight: 300;
       font-size: 1.6rem;
       color: #7a839e;
-      margin-bottom: 2.1rem;
+      margin-bottom: 1.9rem;
+      margin-top: 0.4rem;
+      margin-left: 0.2rem;
       line-height: 2.5rem;
     }
+  }
+  &__button {
+    margin-left: 0.3rem;
   }
   &__image {
   }
