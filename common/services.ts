@@ -10,7 +10,7 @@ export const SERVICES: Service[] = [
   {
     title: 'SOCIALS GROWTH CAMPAIGN',
     description:
-      'Our social growth campaign will have your socials come alive. With constant growth and engagement you will be sure to have the thriving you’ve been looking for.',
+      'Our social growth campaign will have your socials come alive.<br /> With constant growth and engagement you will be sure to have the thriving you’ve been looking for.',
     image: '/002-social-media.svg',
   },
   {
@@ -23,13 +23,13 @@ export const SERVICES: Service[] = [
     title: 'INFLUENCER MARKETING',
     description:
       'We will pair your business with influencers that speak to your audience. Influencer Marketing is the most effective way to reach a loyal audience.',
-    image: '/004-social-media-1.svg',
+    image: '/007-analysis.svg',
   },
   {
     title: 'SOCIAL MEDIA PAID ADVERTISING',
     description:
       'Our ad campaigns will bring you the results your looking for. From brand awareness campaigns to lead funnels, we have got the tools to create the right ads for your business. Our re-targeting campaigns will be sure to get your visitors coming back to your site.',
-    image: '/007-analysis.svg',
+    image: '/004-social-media-1.svg',
   },
   {
     title: 'CONTENT MARKETING SERVICES',
