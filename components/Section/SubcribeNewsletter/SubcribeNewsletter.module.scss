@@ -1,0 +1,61 @@
+@import '/styles/variables';
+.newsletter {
+  text-align: center;
+  padding-top: 13.7rem;
+  padding-bottom: 13.7rem;
+  &__headline {
+    font-family: 'Poppins';
+    &--highlight {
+      display: block;
+      font-family: 'Lobster';
+      line-height: 2.5rem;
+      font-weight: 400;
+      font-size: 2rem;
+      color: #7e76f9;
+    }
+    &--normal {
+      font-weight: 400;
+      font-size: 3.2rem;
+      line-height: 4.8rem;
+      margin-top: 0.9rem;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.subscribe {
+  &__form {
+    margin-top: 4.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.1rem;
+  }
+  &__input,
+  &__input::placeholder {
+    font-family: 'Poppins';
+    background-color: #f6f7fb;
+    width: 43rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 1.8rem;
+    padding: 1.8rem 2.6rem;
+    border: none;
+  }
+  &__input::placeholder {
+    padding: 0;
+    color: #999999 !important;
+  }
+  &__button {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-top: 1.4rem;
+    line-height: 2.5rem;
+    width: 17rem;
+    height: 5rem;
+  }
+}
