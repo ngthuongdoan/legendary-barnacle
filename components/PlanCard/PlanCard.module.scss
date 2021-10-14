@@ -1,0 +1,47 @@
+.plan {
+  background: #ffffff;
+  padding: 6.2rem 4rem 5.3rem 4rem;
+  border-radius: 2.6rem;
+  box-shadow: 0 1rem 2rem #7e76f916;
+  &__title {
+    font-family: 'Lobster';
+    font-size: 2.8rem;
+    color: #42495b;
+    line-height: 3.5rem;
+  }
+  &__description {
+    margin-top: 7rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #7a839e;
+    line-height: 2.5rem;
+    overflow-y: hidden;
+    height: 7.6rem;
+  }
+  &__price {
+    margin-top: 3.6rem;
+    margin-bottom: 3.9rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4.6rem;
+    color: #1000ff;
+  }
+  &__button {
+    width: 17rem;
+    height: 5.2rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    padding-top: 1.2rem;
+    white-space: nowrap;
+    &--inactive {
+      background: white;
+      color: #42495b;
+      border: 1px solid #1000ff;
+    }
+    &--acive {
+      box-shadow: 0.6rem 0.6rem 1.6rem #00000016;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import '/styles/variables';
+.our-pricing {
+  background-color: #eceafe;
+  text-align: center;
+  padding: 0 17rem;
+  padding-top: 4rem;
+  padding-bottom: 4.3rem;
+  &__headline {
+    &--highlight {
+      display: block;
+      font-family: 'Lobster';
+      line-height: 2.5rem;
+      font-weight: 400;
+      font-size: 2rem;
+      color: #7e76f9;
+    }
+    &--normal {
+      font-weight: 600;
+      font-size: 5rem;
+      line-height: 7.6rem;
+      margin-top: 0.9rem;
+    }
+  }
+  &__plans {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 7.5rem;
+    margin-top: 5.3rem;
+    min-height: 46.3rem;
+  }
+  &__indicators {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 9rem;
+  }
+}
